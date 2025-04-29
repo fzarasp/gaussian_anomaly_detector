@@ -14,6 +14,17 @@ cd gaussian_anomaly_detector
 pip install -r requirements.txt
 ```
 
+## Dataset
+
+This model was developed and tested using the [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) dataset from Kaggle.
+
+Download it using KaggleHub:
+
+```python
+import kagglehub
+path = kagglehub.dataset_download("mlg-ulb/creditcardfraud")
+
+```
 ## Usage
 
 ```python
